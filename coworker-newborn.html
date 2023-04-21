@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@material/select@5.1.0/dist/mdc.select.min.css">
+  <script src="https://unpkg.com/@material/select@5.1.0/dist/mdc.select.min.js"></script>
+  <script src="script.js"></script>
+  <script src="coworker-newborn.js?1"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body onload="onloadf();">
+	<header class="mdc-top-app-bar">
+  <div class="mdc-top-app-bar__row">
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <span class="mdc-top-app-bar__title">Gift Easy</span>
+    </section>
+  </div>
+</header>
+<main class="mdc-top-app-bar--fixed-adjust">
+<div id="maincontent">
+  <div class="topmargin" id="culturepickerdiv" >
+  To help pick traditional gifts that suit their culture, tell us where they are from. <br />
+    <div class="mdc-select" id="culturepicker">
+      <div class="mdc-select__anchor">
+        <i class="mdc-select__dropdown-icon"></i>
+        <div class="mdc-select__selected-text"></div>
+        <div class="mdc-select__ripple"></div>
+      </div>
+      <div class="mdc-select__menu mdc-menu mdc-menu-surface">
+        <ul class="mdc-list">
+          <li class="mdc-list-item" data-value="china">China</li>
+          <li class="mdc-list-item" data-value="india">India</li>
+          <li class="mdc-list-item" data-value="other">Other</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mdc-list hiddenc" id="chinacontent"> </div>
+</div>
+
+</main>
+	</body>	
+</html>

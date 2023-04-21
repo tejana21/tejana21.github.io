@@ -1,0 +1,47 @@
+.fullwidth {
+	width: 100%;
+}
+
+.scenariocard {
+	width: 100%;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.scenariocardcontent {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-size: 1.5em;
+	/*text-align: center;*/
+	float: center;
+}
+
+.topmargin {
+	margin-top: 1.5em;
+}
+
+.tbmargin {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+.hiddenc {
+	display: none;
+}
+
+.gifttitle {
+	vertical-align: middle;
+}
+.giftdetails {
+}
+
+.giftdetailstext {
+	/*margin-top: 1em;*/
+	margin-left: 1em;
+	margin-right: 1em;
+	/*margin-bottom: 1em;*/
+}
+
+.floatright {
+	float: right;
+}
